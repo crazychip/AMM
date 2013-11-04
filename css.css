@@ -1,0 +1,58 @@
+body {
+	color: FF6633;
+	background-color:000000;
+}
+
+a:link {
+	text-decoration: none;
+	color: FFCC33;
+}
+
+a:visited {
+	text-decoration: none;
+	color: FFCC33;
+}
+
+a:active {
+	text-decoration: none;
+	color: FFCC33;
+}
+
+a:hover {
+	text-decoration: none;
+	color: FF0000;
+}
+
+td {
+	border: 0;
+}
+th {
+	border: 0;
+}
+div.left{
+	float: left;
+}
+img.absbtmleft{
+	position: absolute;
+	bottom:0px;
+	left:0px;
+	z-index:1;
+}
+img.absbtmright{
+	position: absolute;
+	bottom:0px;
+	right:0px;
+	z-index:1;
+}
+img.abstopright{
+	position: absolute;
+	top:0px;
+	right:0px;
+	z-index:1;
+}
+img.abstopleft{
+	position: absolute;
+	top:0px;
+	left:0px;
+	z-index:1;
+}
