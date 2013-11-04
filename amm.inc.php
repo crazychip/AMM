@@ -1,19 +1,4 @@
 <?php
-/************************************************************************
- * Program:	Awsome media machine 3
- * File:	amm3.php
- * Function:	To randomly select and display *.swf files
- * Description: -----------
- * Author(s):	Kjell-Aleksander Skogsrud <kjell@skogsrud.net> (ksk)
- * Enviroment:	Constantly changing as the server updates
- *		apache2 or higher
- * 		php4
- * 		mysql5 or higher
- * Notes:	This is the core of Awsome Media Machine
- * 
- * Revisions:	1.00	09/10/09(ksk) It was made.
- *************************************************************************/
-
 //is there a direct request?
 if(isset($_GET['id']))
 {	// then use that file as the source

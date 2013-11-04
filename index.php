@@ -1,18 +1,5 @@
 <?php
 session_start();
-/************************************************************************
- * Program:     Awsome media machine 3
- * File:        index.php
- * Function:    Exsample index file for AMM(www.fezt.biz)
- * Description: N/A
- * Author(s):   Kjell-Aleksander Skogsrud <kjell@skogsrud.net> (ksk)
- *
- * Revisions:   1.00    xx/xx/xx(ksk) It was made.
- *		1.01	06/05/10(ksk) added Session header. Refreshing will
- *			now always give random flash, even when direct linking.
- *		3.00	Updated for v3, now uses google analytics.
- *
- ************************************************************************/
 require "functions.inc.php";
 require "config.php";
 mysql_con($MySQLServer,$MySQLUser,$MySQLPass,$MySQLDB);
@@ -59,6 +46,7 @@ echo '<h1>Hit F5 for more</h1>';
 <?php include 'amm.inc.php'; ?>
 </td>
 <td valign="bottom"> <!-- three colum -->
+<?php if($EnableStatistics) { include 'topfive.inc.php'; }?>
 </td>
 </tr>
 <tr>

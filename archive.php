@@ -1,15 +1,4 @@
-
 <?php
-/************************************************************************
- * Program:     Awsome media machine
- * File:	archive.php
- * Function:	display a list of all media files.
- * Description:
- * Author(s):   Kjell-Aleksander Skogsrud <kjell@skogsrud.net> (ksk)
- *
- * Revisions:   1.00   20/01/11(ksk) It was made. 
- *
- ************************************************************************/
 // Standard includes for all pages
 require "functions.inc.php";
 require "config.php";
