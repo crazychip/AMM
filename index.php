@@ -46,6 +46,7 @@ echo '<h1>Hit F5 for more</h1>';
 <?php include 'amm.inc.php'; ?>
 </td>
 <td valign="bottom"> <!-- three colum -->
+<?php if($EnableStatistics) { include 'topfive.inc.php'; }?>
 </td>
 </tr>
 <tr>
