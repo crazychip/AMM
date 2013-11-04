@@ -1,16 +1,4 @@
 <?php
-/************************************************************************
- * Program:     Awsome media machine
- * File:	topfive.inc.php
- * Function:	display the top five direct views 
- * Description:
- * Author(s):   Kjell-Aleksander Skogsrud <kjell@skogsrud.net> (ksk)
- * Notes:
- *
- * Revisions:   1.00    xx/xx/xx(ksk) It was made. 
- *
- ************************************************************************/
-
 echo "<table>";
 echo '<tr><td colspan=3 >The direct score:</td></tr>';
 $c=1;

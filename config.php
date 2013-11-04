@@ -1,23 +1,4 @@
 <?php
-/************************************************************************
- * Program:     Awsome media machine
- * File:        config.php
- * Function:    To hold varables that control the operations of the program
- * 		at "run time"
- * Description: N/A
- * Author(s):   Kjell-Aleksander Skogsrud <kjell@skogsrud.net> (ksk)
- * Enviroment:  apache-2.2.4_2
- *              php4-4.4.7
- *              mysql-server-5.0.41
- * Notes:       N/A
- *
- * Revisions:   Alpha   04/12/07 (ksk) 
- * 		It was made.
- * 		1.00	07/12/07 (ksk)
- * 		The first settings have been added
- *
- ************************************************************************/
-
 // General.
 $SiteName='FEZT.BIZ - Awsome Media Machine!';
 $FlashWidth='800';	// The maximum width of the Flash window, in px

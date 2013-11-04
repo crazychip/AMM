@@ -1,27 +1,4 @@
 <?php
-/************************************************************************
- * Program:     Awsome media machine
- * File:        functions.inc.php
- * Function:    contains functions used during "run time"
- * Description: 
- * Author(s):   Kjell-Aleksander Skogsrud <kjell@skogsrud.net> (ksk)
- * Enviroment:  apache-2.2.4_2
- *              php4-4.4.7
- *              mysql-server-5.0.41
- *
- * Notes:       N/A
- *
- * Revisions:   1.00    11/10/09(ksk) It was made.
- *		included 
- *			- the mysql connect function
- *			- int totalViews()
- *			- int directViews([string file])
- *			- int randomViews([string file])
- *		2.00	12/10/09(ksk) added function			
- *		
- ************************************************************************/
-
-
 function mysql_con($mysql_server,$mysql_user,$mysql_pass,$mysql_db){
         if(mysql_connect($mysql_server,$mysql_user,$mysql_pass) && mysql_select_db($mysql_db))
                 return true;

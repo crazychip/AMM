@@ -1,16 +1,4 @@
 <?php
-/************************************************************************
- * Program:     Awsome media machine
- * File:        seasons.inc.php
- * Function:    the configuration of seasonal changes
- * Description: N/A
- * Author(s):   Kjell-Aleksander Skogsrud <kjell@skogsrud.net> (ksk)
- * Notes:       N/A
- *
- * Revisions:	1.1 06/10/09 (ksk)
- *              It was made.
- *
- ************************************************************************/
 $seasonGraphics="seasons/";
 
 $sD = Array(

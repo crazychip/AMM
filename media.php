@@ -1,21 +1,4 @@
 <?php
-/************************************************************************
- * Program:     Awsome media machine
- * File:	media.php
- * Function:	display all the media in the archive with handy sort function.
- * Description:
- * Author(s):   Kjell-Aleksander Skogsrud <kjell@skogsrud.net> (ksk)
- * Enviroment:  Constantly changing as the server updates. But basicly
- *		apache2 or higher
- *		php4
- *		mysql5 or higher
- * Notes:
- *
- * Revisions:   1.00    15/12/08(ksk) It was made.( Actually copied from stats.php) 
- *			- Displays a list og all the files in the archive, sorted.
- *			- Each filename is a link to the index page with id=$FileName 
- *
- ************************************************************************/
 require "functions.inc.php";
 require "config.php";
 mysql_con($mysql_server,$mysql_user,$mysql_pass,$mysql_db);
