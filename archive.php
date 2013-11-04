@@ -30,7 +30,7 @@ sort($files);
 foreach ( $files as $f)
 {
 	$current=$f;
-	echo '<tr><td><a href="http://www.fezt.biz/?id='.$current.'">'.$current.'</a></td></tr>';
+	echo '<tr><td><a href="http://'.$SiteAddress.'/?id='.$current.'">'.$current.'</a></td></tr>';
 }
 ?>
 </body>

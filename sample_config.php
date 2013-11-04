@@ -1,6 +1,7 @@
 <?php
 // General.
 $SiteName='FEZT.BIZ - Awsome Media Machine!';
+$SiteAddress='www.domain.com/folder';     // The address of your site. (www.exsample.com/somefolder/someotherfolder
 $FlashWidth='800';	// The maximum width of the Flash window, in px
 $FlashHeight='600';	// The maximum height of the Flash window, in px
 $MediaFolder='media/';	// The path to the mediafolder(relativ to where AMM is included)
